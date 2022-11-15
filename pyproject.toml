@@ -1,6 +1,6 @@
 [tool.kedro]
 package_name = "plan_b"
-project_name = "plan-b"
+project_name = "PLAN-B"
 project_version = "0.18.3"
 
 [tool.isort]

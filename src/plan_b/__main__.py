@@ -1,4 +1,4 @@
-"""plan-b file for ensuring the package is executable
+"""PLAN-B file for ensuring the package is executable
 as `plan-b` and `python -m plan_b`
 """
 import importlib

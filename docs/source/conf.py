@@ -52,8 +52,8 @@ extensions = [
     "sphinx.ext.viewcode",
     "sphinx.ext.mathjax",
     "nbsphinx",
-    "sphinx_copybutton",
     "myst_parser",
+    "sphinx_copybutton",
 ]
 
 # enable autosummary plugin (table of contents for modules/classes/class
@@ -181,7 +181,7 @@ texinfo_documents = [
         author,
         "plan_b",
         "Project plan_b codebase.",
-        "Nearest-Neighbour",
+        "Data-Science",
     )
 ]
 
@@ -222,4 +222,3 @@ def setup(app):
     # add Kedro stylesheets
     for stylesheet in find_stylesheets():
         app.add_css_file(stylesheet)
-    # enable rendering RST tables in Markdown
